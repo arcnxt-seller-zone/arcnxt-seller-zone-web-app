@@ -1,3 +1,4 @@
+export const dynamic = "force-static"; // Add this line
 import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
