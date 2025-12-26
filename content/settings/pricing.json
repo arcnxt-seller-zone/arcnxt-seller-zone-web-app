@@ -1,131 +1,128 @@
 {
-    "hero": {
-        "title": "Pricing & Commission",
-        "subtitle": "Sell online on ArcNxt at 0% commission across all categories",
-        "ctaText": "Start Selling",
-        "ctaUrl": "https://arcnxt.com/seller-registration-and-onboarding/"
-    },
-    "eligibility": {
-        "title": "Don’t have a GSTIN?",
-        "desc": "Selected seller categories may onboard without a regular GSTIN."
-    },
-    "noFees": [
-        {
-            "icon": "registration",
-            "title": "No Registration Fee",
-            "desc": "Creating a seller account and listing products on ArcNxt is completely free."
-        },
-        {
-            "icon": "listing",
-            "title": "Free Product Listing",
-            "desc": "List unlimited products without paying any listing charges."
-        },
-        {
-            "icon": "collection",
-            "title": "No Collection Fee",
-            "desc": "Keep 100% of your sale price on prepaid and COD orders."
-        },
-        {
-            "icon": "penalty",
-            "title": "No Penalty Charges",
-            "desc": "No penalties for order cancellations or delayed dispatch."
-        }
-    ],
-    "payment": {
-        "title": "Payment Cycle",
-        "description": "The settlement amount is securely deposited directly into your bank account after order delivery, including cash on delivery orders.",
-        "points": [
-            {
-                "icon": "cycle",
-                "title": "7-day payment cycle",
-                "desc": "Payments are settled within 7 days from order delivery."
-            },
-            {
-                "icon": "secure",
-                "title": "Secured payment",
-                "desc": "All settlements are safely transferred to your registered bank account."
-            }
-        ],
-        "footer": "You can track deposited balance and upcoming settlements from your seller dashboard."
-    },
-    "shippingAndReturns": {
-  "shipping": {
-    "title": "Quick Facts on Shipping & Delivery",
-    "description": "ArcNxt manages shipping and delivery so you can focus on selling. Shipping charges attract only applicable GST, while you retain full control over your product pricing and reach customers across India.",
-    "facts": [
-      {
-        "icon": "coverage",
-        "text": "Pan-India delivery coverage through reliable courier partners."
-      },
-      {
-        "icon": "gst",
-        "text": "GST is applicable only on shipping charges."
-      },
-      {
-        "icon": "pricing",
-        "text": "Sellers have complete control over product pricing."
-      }
-    ]
+  "hero": {
+    "title": "Pricing & Commission",
+    "subtitle": "Sell online on ArcNxt at 0% commission across all categories",
+    "ctaText": "Start Selling",
+    "ctaUrl": "https://arcnxt.com/seller-registration-and-onboarding/"
   },
-  "returns": {
-    "title": "Returns Management",
-    "description": "All returns are transparently visible in your seller dashboard, helping you track inventory, take corrective action, and reduce future returns.",
-    "facts": [
-      {
-        "icon": "dashboard",
-        "text": "Real-time visibility of returns in the seller panel."
-      },
-      {
-        "icon": "optimize",
-        "text": "Improve listings and operations to minimize return rates."
-      }
-    ]
+  "eligibility": {
+    "title": "Don’t have a GSTIN?",
+    "desc": "Selected seller categories may onboard without a regular GSTIN."
   },
-  "cancellation": {
-    "title": "Cancellations",
-    "description": "There are no penalties for seller-initiated or system cancellations. Sellers can operate without fear of unexpected charges due to inventory or operational issues."
-  },
-  "rto": {
-    "title": "Return to Origin (RTO)",
-    "description": "If delivery attempts are unsuccessful, the shipment is returned to you without any return shipping charges."
-  }
-},
-
-    "finalCta": {
-        "title": "Sell Products Online at 0% Commission",
-        "subtitle": "Join a seller-first marketplace built for growth",
-        "ctaText": "Start Selling"
-    },
-
-    "benefits": {
-  "title": "Why Sellers Choose ArcNxt",
-  "items": [
+  "noFees": [
     {
-      "emoji": "🚀",
-      "title": "Fast Onboarding",
-      "desc": "Start selling quickly with a simple and hassle-free onboarding process."
+      "icon": "registration",
+      "title": "No Registration Fee",
+      "desc": "Creating a seller account and listing products on ArcNxt is completely free."
     },
     {
-      "emoji": "💰",
-      "title": "Zero Commission",
-      "desc": "No commission on sales. Keep 100% of what you earn."
+      "icon": "listing",
+      "title": "Free Product Listing",
+      "desc": "List unlimited products without paying any listing charges."
     },
     {
-      "emoji": "📦",
-      "title": "Easy Order Management",
-      "desc": "Manage orders, returns, and inventory from one simple dashboard."
+      "icon": "collection",
+      "title": "No Collection Fee",
+      "desc": "Keep 100% of your sale price on prepaid and COD orders."
     },
     {
-      "emoji": "🔒",
-      "title": "Secure Payments",
-      "desc": "Get paid directly into your bank account with transparent settlements."
-    },
-    {
-      "emoji": "📈",
-      "title": "Business Growth",
-      "desc": "Reach customers across India and grow your online business."
+      "icon": "penalty",
+      "title": "No Penalty Charges",
+      "desc": "No penalties for order cancellations or delayed dispatch."
     }
-  ]
-}
-
+  ],
+  "payment": {
+    "title": "Payment Cycle",
+    "description": "The settlement amount is securely deposited directly into your bank account after order delivery, including cash on delivery orders.",
+    "points": [
+      {
+        "icon": "cycle",
+        "title": "7-day payment cycle",
+        "desc": "Payments are settled within 7 days from order delivery."
+      },
+      {
+        "icon": "secure",
+        "title": "Secured payment",
+        "desc": "All settlements are safely transferred to your registered bank account."
+      }
+    ],
+    "footer": "You can track deposited balance and upcoming settlements from your seller dashboard."
+  },
+  "shippingAndReturns": {
+    "shipping": {
+      "title": "Quick Facts on Shipping & Delivery",
+      "description": "ArcNxt manages shipping and delivery so you can focus on selling. Shipping charges attract only applicable GST, while you retain full control over your product pricing and reach customers across India.",
+      "facts": [
+        {
+          "icon": "coverage",
+          "text": "Pan-India delivery coverage through reliable courier partners."
+        },
+        {
+          "icon": "gst",
+          "text": "GST is applicable only on shipping charges."
+        },
+        {
+          "icon": "pricing",
+          "text": "Sellers have complete control over product pricing."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Returns Management",
+      "description": "All returns are transparently visible in your seller dashboard, helping you track inventory, take corrective action, and reduce future returns.",
+      "facts": [
+        {
+          "icon": "dashboard",
+          "text": "Real-time visibility of returns in the seller panel."
+        },
+        {
+          "icon": "optimize",
+          "text": "Improve listings and operations to minimize return rates."
+        }
+      ]
+    },
+    "cancellation": {
+      "title": "Cancellations",
+      "description": "There are no penalties for seller-initiated or system cancellations. Sellers can operate without fear of unexpected charges due to inventory or operational issues."
+    },
+    "rto": {
+      "title": "Return to Origin (RTO)",
+      "description": "If delivery attempts are unsuccessful, the shipment is returned to you without any return shipping charges."
+    }
+  },
+  "finalCta": {
+    "title": "Sell Products Online at 0% Commission",
+    "subtitle": "Join a seller-first marketplace built for growth",
+    "ctaText": "Start Selling"
+  },
+  "benefits": {
+    "title": "Why Sellers Choose ArcNxt",
+    "items": [
+      {
+        "emoji": "🚀",
+        "title": "Fast Onboarding",
+        "desc": "Start selling quickly with a simple and hassle-free onboarding process."
+      },
+      {
+        "emoji": "💰",
+        "title": "Zero Commission",
+        "desc": "No commission on sales. Keep 100% of what you earn."
+      },
+      {
+        "emoji": "📦",
+        "title": "Easy Order Management",
+        "desc": "Manage orders, returns, and inventory from one simple dashboard."
+      },
+      {
+        "emoji": "🔒",
+        "title": "Secure Payments",
+        "desc": "Get paid directly into your bank account with transparent settlements."
+      },
+      {
+        "emoji": "📈",
+        "title": "Business Growth",
+        "desc": "Reach customers across India and grow your online business."
+      }
+    ]
+  }
 }
