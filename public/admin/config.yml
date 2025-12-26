@@ -1,0 +1,111 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+
+  # =====================
+  # HOME PAGE
+  # =====================
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "content/home.md"
+        fields:
+          - { label: "Main Title", name: "title", widget: "string" }
+          - { label: "Sub Title", name: "subtitle", widget: "text" }
+
+          - label: "Benefits"
+            name: "benefits"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Icon Emoji", name: "icon", widget: "string" }
+
+  # =====================
+  # NAVBAR
+  # =====================
+  - name: "navbar"
+    label: "Navbar"
+    files:
+      - name: "navbar"
+        label: "Navbar Settings"
+        file: "content/settings/navbar.json"
+        fields:
+          - { label: "Logo Image", name: "logoImage", widget: "image" }
+
+          - label: "Menu Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Link Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+
+  # =====================
+  # FOOTER (SELLER ZONE)
+  # =====================
+  - name: "footer"
+    label: "Footer (Seller Zone)"
+    files:
+      - name: "footer"
+        label: "Footer Settings"
+        file: "content/settings/footer.json"
+        fields:
+
+          # BRAND
+          - label: "Brand"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Brand Name", name: "name", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "CTA Text", name: "ctaText", widget: "string" }
+              - { label: "CTA URL", name: "ctaUrl", widget: "string" }
+
+          # SELLER LINKS
+          - label: "Seller Zone Links"
+            name: "sellerLinks"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+
+          # SUPPORT
+          - label: "Seller Support"
+            name: "support"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+              - { label: "Support Email", name: "email", widget: "string" }
+
+          # SOCIAL
+          - label: "Social Media"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "YouTube URL", name: "youtube", widget: "string", required: false }
+
+          # LEGAL
+          - label: "Legal"
+            name: "legal"
+            widget: "object"
+            fields:
+              - { label: "Company Name", name: "companyName", widget: "string" }
+              - { label: "Copyright Year", name: "copyrightYear", widget: "string" }

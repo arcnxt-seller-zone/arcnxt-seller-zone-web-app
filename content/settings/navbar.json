@@ -1,0 +1,30 @@
+{
+  "logoText": "ArcNxt",
+  "links": [
+    {
+      "label": "Sell Online",
+      "url": "https://arcnxt.com/seller-registration-and-onboarding/"
+    },
+    {
+      "label": "Pricing & Commission",
+      "url": "/pricing"
+    },
+    {
+      "label": "Shipping & Returns",
+      "url": "/shipping"
+    },
+    {
+      "label": "Seller Learning Zone",
+      "url": "https://youtube.com/@arcnxtsellerZone"
+    },
+    {
+      "label": "Shop on ArcNxt",
+      "url": "https://arcnxt.com/"
+    },
+    {
+      "label": "Login",
+      "url": "https://arcnxt.com/login-sing-up/"
+    }
+  ],
+  "logoImage": "/uploads/logopit_17658769484542.png"
+}

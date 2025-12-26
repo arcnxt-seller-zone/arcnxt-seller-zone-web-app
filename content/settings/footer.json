@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "logoImage": "uploads/logopit_17658769484542.png",
+    "tagline": "Seller Zone",
+    "description": "Sell Online Across India on ArcNxt — A Trusted Platform with 0% Commission",
+    "ctaText": "Start Selling",
+    "ctaUrl": "https://arcnxt.com/seller-registration-and-onboarding/"
+  },
+  "sellerLinks": {
+    "title": "Seller Zone",
+    "links": [
+      {
+        "label": "Sell Online on ArcNxt",
+        "url": "https://arcnxt.com/seller-registration-and-onboarding/"
+      },
+      {
+        "label": "Pricing & Commission",
+        "url": "/pricing"
+      },
+      {
+        "_comment": "How It Works",
+        "url": ""
+      },
+      {
+        "label": "Shipping & Returns",
+        "url": "/shipping"
+      },
+      {
+        "_comment": "Grow Your Business",
+        "url": ""
+      },
+      {
+        "label": "Seller Learning Zone",
+        "url": "https://youtube.com/@arcnxtsellerZone"
+      },
+      {
+        "label": "Shop on ArcNxt",
+        "url": "https://arcnxt.com/"
+      }
+    ]
+  },
+  "support": {
+    "title": "Seller Support",
+    "email": "contact@arcnxt.com"
+  },
+  "social": {
+    "instagram": "https://instagram.com/arcnxtsellerZone",
+    "facebook": "https://facebook.com/arcnxt",
+    "youtube": "https://youtube.com/@arcnxtsellerZone"
+  },
+  "company": {
+    "name": "ArcNxt Tech Innovations Private Limited",
+    "cin": "U47912AP2025PTC121964",
+    "address": "1, Skanda Gowri Layout, Near Alima Church, Dargamitta, Nellore, Andhra Pradesh, India – 524003",
+    "additionalOffice": {
+      "label": "Operational Office (Opening Soon)",
+      "location": "Hyderabad, Telangana, India"
+    }
+  },
+  "legal": {
+    "companyName": "ArcNxt Tech Innovations Private Limited (operating as ArcNxt). All Rights Reserved.",
+    "copyrightYear": "2025"
+  }
+}

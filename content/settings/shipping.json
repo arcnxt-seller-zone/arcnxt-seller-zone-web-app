@@ -1,0 +1,159 @@
+{
+  "hero": {
+    "title": "Shipping, Delivery & Returns Policy",
+    "subtitle": "Deliver your products to customers across India with reliable and cost-effective shipping support.",
+    "gstNoteTitle": "No GSTIN or Composition GSTIN?",
+    "gstNoteText": "You can still sell on ArcNxt. Learn more",
+    "ctaText": "Start Selling",
+    "image": "",
+    "extraBenefits": [
+      { "emoji": "📦", "text": "Shipping is arranged by ArcNxt" },
+      { "emoji": "🚚", "text": "Pickup from your doorstep" },
+      { "emoji": "🛡️", "text": "Safe & reliable delivery" }
+    ]
+  },
+
+  "banner": {
+    "title": "Deliver Products Across India",
+    "desc": "ArcNxt ensures smooth and hassle-free delivery of your products across India so you can focus on growing your business.",
+    "highlights": [
+      { "icon": "cost", "title": "Cost-Effective Shipping", "image": "" },
+      { "icon": "india", "title": "Pan-India Delivery", "image": "" },
+      { "icon": "commission", "title": "0% Commission", "image": "" }
+    ]
+  },
+
+  "quickFacts": {
+    "title": "Quick Facts on Shipping & Delivery",
+    "items": [
+      {
+        "key": "shipping",
+        "icon": "shipping",
+        "title": "Shipping",
+        "desc": "ArcNxt handles shipping and delivery so you can focus on selling. Only applicable GST is charged on shipping, and sellers have complete control over product pricing.",
+        "image": ""
+      },
+      {
+        "key": "returns",
+        "icon": "returns",
+        "title": "Returns Management",
+        "desc": "The seller dashboard gives complete visibility into returns, enabling real-time improvements and helping reduce return-related costs.",
+        "image": ""
+      },
+      {
+        "key": "cancellation",
+        "icon": "cancel",
+        "title": "Cancellations",
+        "desc": "There are zero penalties for genuine seller or system cancellations, allowing you to operate without unnecessary stress.",
+        "image": ""
+      },
+      {
+        "key": "rto",
+        "icon": "rto",
+        "title": "Return to Origin (RTO)",
+        "desc": "If delivery attempts are unsuccessful, the shipment is returned without any additional return shipping charges.",
+        "image": ""
+      }
+    ]
+  },
+
+  "logistics": {
+    "title": "Shipping & Delivery Charges",
+    "desc": "ArcNxt partners with multiple trusted logistics providers to pick up products from your location and deliver them directly to customers across India."
+  },
+
+  "steps": {
+    "title": "Ship Your Orders in 3 Simple Steps",
+    "items": [
+      {
+        "step": "1",
+        "title": "Manage Orders",
+        "desc": "Accept orders from the seller dashboard and download the shipping label."
+      },
+      {
+        "step": "2",
+        "title": "Pack Products",
+        "desc": "Securely pack the product using plain, unbranded packaging and attach the label."
+      },
+      {
+        "step": "3",
+        "title": "Hand Over to Courier",
+        "desc": "Our logistics partner picks up the order and delivers it to the customer."
+      }
+    ]
+  },
+
+  "nav": [
+    { "id": "charges", "label": "Shipping & Delivery Charges" },
+    { "id": "how-it-works", "label": "How Shipping Works" },
+    { "id": "timeline", "label": "Shipping Timeline" },
+    { "id": "returns", "label": "Return Policy" },
+    { "id": "cancellation", "label": "Cancellation Policy" }
+  ],
+
+  "charges": {
+    "title": "ArcNxt Shipping & Delivery Charges",
+    "paragraphs": [
+      "ArcNxt provides cost-effective shipping across India through trusted logistics partners who pick up products from your location and deliver them directly to customers.",
+      "With transparent and affordable delivery charges, sellers can focus on growing their online business without worrying about logistics operations."
+    ]
+  },
+
+  "howItWorks": {
+    "title": "How to Ship Your Orders in 3 Simple Steps",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Manage and process your orders",
+        "desc": "Log in to the ArcNxt Seller Panel, accept orders, and download the shipping label and manifest."
+      },
+      {
+        "step": 2,
+        "title": "Pack your product for pickup",
+        "desc": "Pack the product securely using plain, unbranded packaging and attach the shipping label clearly."
+      },
+      {
+        "step": 3,
+        "title": "Hand over to delivery partner",
+        "desc": "Our logistics partner will pick up the shipment from your address and deliver it to the customer."
+      }
+    ],
+    "note": "Sit back and relax while ArcNxt ensures safe and timely delivery. Well-packed and on-time shipments lead to happier customers and repeat orders.",
+    "videoImage": "",
+    "videoUrl": ""
+  },
+
+  "timeline": {
+    "title": "Shipping Timeline",
+    "desc": "Orders must be dispatched within 2–3 days from order confirmation, as per the committed Service Level Agreement (SLA). Sellers can track dispatch deadlines and order status in the Seller Panel."
+  },
+
+  "returns": {
+    "title": "Return Policy",
+    "paragraphs": [
+      "Customers can request a return within 7 days of delivery. Undelivered shipments are marked as Return to Origin (RTO).",
+      "The Seller Panel provides complete visibility into returns and RTOs, including tracking, compensation, and charge details."
+    ],
+    "listTitle": "Return Shipping Fee",
+    "points": [
+      "Return shipping fees may apply for customer-initiated returns based on shipment weight.",
+      "No additional shipping fee is charged for RTO shipments.",
+      "All return and RTO charges can be tracked and managed from the Seller Panel.",
+      "In exceptional cases, return shipping fees may be waived."
+    ],
+    "image": ""
+  },
+
+  "cancellation": {
+    "title": "Cancellation Policy",
+    "subtitle": "No Cancellation Penalty",
+    "desc": "Sellers are not charged any penalty for genuine order cancellations due to inventory or operational constraints. ArcNxt allows sellers to continue business without unnecessary financial stress.",
+    "image": ""
+  },
+
+  "finalCta": {
+    "title": "Sell Products Online at 0% Commission",
+    "subtitle": "Join a fast-growing marketplace and reach customers across India.",
+    "ctaText": "Start Selling"
+  }
+}

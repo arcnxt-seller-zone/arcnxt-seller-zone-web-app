@@ -1,0 +1,189 @@
+{
+  "hero": {
+    "title": "Sell Online Across India on ArcNxt at",
+    "subtitle": "Reach customers nationwide with 0% commission and simple onboarding",
+    "note": "Selected seller categories may onboard without a regular GST",
+    "cta": "Start Selling",
+    "registerLink": "https://arcnxt.com/seller-registration-and-onboarding/",
+    "image": "/images/test-hero.jpg",
+    "benefits": [
+      "💰 0% Commission",
+      "📦 Free Product Listing",
+      "👥 1 Lakh+ Customers",
+      "🚚 Pan-India Reach",
+      "⚡ Fast Seller Onboarding",
+      "💸 Fast Settlements",
+      "❌ No Order Cancellation Charges",
+      "🛡️ No Penalty Charges",
+      "🤝 Dedicated Seller Support"
+    ]
+  },
+  "stats": [
+    {
+      "value": "1 Lakh+",
+      "label": "Customers Across India"
+    },
+    {
+      "value": "10,000+",
+      "label": "Sellers Trust ArcNxt"
+    },
+    {
+      "value": "25,000+",
+      "label": "Serviceable Pincodes"
+    },
+    {
+      "value": "100+",
+      "label": "Categories to Sell"
+    }
+  ],
+  "why": {
+    "title": "Why Sellers Love ArcNxt",
+    "subtitle": "Everything is designed to help you sell more and grow your business",
+    "items": [
+      {
+        "icon": "commission",
+        "title": "0% Commission Fee",
+        "desc": "Sell on ArcNxt without paying any commission and keep 100% of your earnings."
+      },
+      {
+        "icon": "penalty",
+        "title": "0 Penalty Charges",
+        "desc": "No penalties for late dispatch or order cancellations. Sell without fear."
+      },
+      {
+        "icon": "growth",
+        "title": "Growth for Every Seller",
+        "desc": "From small sellers to large brands, ArcNxt supports growth for all—including select non-GST sellers."
+      },
+      {
+        "icon": "ease",
+        "title": "Ease of Doing Business",
+        "points": [
+          "Easy product listing",
+          "Lowest cost shipping",
+          "Fast payment settlements"
+        ]
+      }
+    ]
+  },
+  "rewards": {
+    "title": "Exclusive Seller Rewards for Your First 30 Days",
+    "subtitle": "Designed to help new sellers start strong and grow faster on ArcNxt",
+    "items": [
+      {
+        "icon": "visibility",
+        "title": "Free Product Visibility",
+        "desc": "Get boosted visibility for your products during your first 30 days to attract more buyers."
+      },
+      {
+        "icon": "listing",
+        "title": "Free Product Listing",
+        "desc": "List unlimited products on ArcNxt at no cost and start selling immediately."
+      },
+      {
+        "icon": "returns",
+        "title": "No Return Charges on First 10 Orders",
+        "desc": "Enjoy zero return charges for your first 10 orders, reducing your initial risk."
+      },
+      {
+        "icon": "cancel",
+        "title": "No Order Cancellation Charges",
+        "desc": "Cancel orders you cannot fulfil without worrying about penalties."
+      },
+      {
+        "icon": "lowcost",
+        "title": "Lowest Return Charges",
+        "desc": "ArcNxt offers one of the lowest return charges across all marketplaces."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Seller Experiences",
+    "items": [
+      {
+        "name": "Amit Jain",
+        "store": "a store",
+        "location": "Tiruppur",
+        "business": "Apparel Seller",
+        "quote": "ArcNxt helped us scale quickly and reach customers across India."
+      },
+      {
+        "name": "Suman Devi",
+        "store": "b store",
+        "location": "Hisar",
+        "business": "Fashion Retailer",
+        "quote": "I started receiving consistent orders within days of onboarding."
+      },
+      {
+        "name": "Mohit Rathi",
+        "location": "Ahmedabad",
+        "store": "a store",
+        "business": "Jewellery Brand",
+        "quote": "ArcNxt made online selling simple and reliable for our business."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How to Start",
+    "steps": [
+      {
+        "title": "Create Account",
+        "desc": "GSTIN (for GST sellers) or Enrolment ID / UIN (for non-GST sellers) and a valid bank account."
+      },
+      {
+        "title": "List Products",
+        "desc": "List the products you want to sell from your seller panel."
+      },
+      {
+        "title": "Get Orders",
+        "desc": "Start receiving orders from customers shopping across India."
+      },
+      {
+        "title": "Affordable Shipping",
+        "desc": "Ship products nationwide using affordable and reliable logistics."
+      },
+      {
+        "title": "Receive Payments",
+        "desc": "Payments are deposited directly into your bank account after a 7-day settlement cycle."
+      }
+    ]
+  },
+  "learningZone": {
+    "title": "ArcNxt Learning Zone",
+    "desc": "Learn how to sell, scale, and grow your business on ArcNxt with step-by-step guides, video tutorials, and seller best practices.",
+    "ctaText": "Visit Learning Zone",
+    "ctaUrl": "https://supplier.arcnxt.com/learning"
+  },
+  "grow": {
+    "title": "Grow Your Business with ArcNxt",
+    "items": [
+      {
+        "icon": "shipping",
+        "title": "Affordable Nationwide Shipping",
+        "desc": "Deliver products to customers across India at competitive rates."
+      },
+      {
+        "icon": "dispatch",
+        "title": "Fast Dispatch Programs",
+        "desc": "Eligible sellers can access faster shipping options."
+      },
+      {
+        "icon": "ads",
+        "title": "Promotional Tools",
+        "desc": "Increase visibility using platform promotion tools."
+      },
+      {
+        "icon": "insights",
+        "title": "Business Insights",
+        "desc": "Track performance and make data-driven decisions."
+      }
+    ]
+  },
+  "support": {
+    "title": "ArcNxt Seller Support",
+    "subtitle": "Available 24/7",
+    "desc": "Our Seller Support team is available round the clock to help you before and after onboarding, ensuring a smooth selling experience on ARCNXT.",
+    "email": "support@arcnxt.com",
+    "mobile": "+91 63033 45991"
+  }
+}
