@@ -1,6 +1,6 @@
 {
   "brand": {
-    "logoImage": "/uploads/arcnxt_logo_purple.png",
+    "logoImage": "/images/arcnxt_logo_purple.png",
     "tagline": "Seller Zone",
     "description": "Sell Online Across India on ArcNxt — A Trusted Platform with 0% Commission",
     "ctaText": "Start Selling",
@@ -11,7 +11,7 @@
     "links": [
       {
         "label": "Sell Online on ArcNxt",
-        "url": "https://arcnxt.com/seller-registration-and-onboarding/"
+        "url": "/"
       },
       {
         "label": "Pricing & Commission",
@@ -36,6 +36,10 @@
       {
         "label": "Shop on ArcNxt",
         "url": "https://arcnxt.com/"
+      },
+       {
+        "label": "Download ArcNxt App From Playstore",
+        "url": "https://play.google.com/store/apps/details?id=com.arcnxt.app"
       }
     ]
   },

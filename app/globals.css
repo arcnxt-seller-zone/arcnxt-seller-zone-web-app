@@ -33,7 +33,7 @@ body {
 }
 
 .arcnxt-marquee {
-  animation: arcnxt-marquee 50s linear infinite;
+  animation: arcnxt-marquee 240s linear infinite;
   will-change: transform;
 }
 

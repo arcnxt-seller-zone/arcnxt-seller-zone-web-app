@@ -53,7 +53,7 @@ export default function ShippingFinalCTA() {
 
 
       <a
-        href="#"
+        href={shipping.finalCta.ctaUrl}
         className="inline-block mt-8 px-10 py-4 rounded-xl bg-[#6B44AF] text-white font-semibold"
       >
         {shipping.finalCta.ctaText}

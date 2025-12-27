@@ -5,7 +5,7 @@
     "gstNoteTitle": "No GSTIN or Composition GSTIN?",
     "gstNoteText": "You can still sell on ArcNxt. Learn more",
     "ctaText": "Start Selling",
-    "image": "",
+    "image": "/images/shipping-hero.png",
     "extraBenefits": [
       {
         "emoji": "📦",
@@ -194,6 +194,8 @@
   "finalCta": {
     "title": "Sell Products Online at 0% Commission",
     "subtitle": "Join a fast-growing marketplace and reach customers across India.",
-    "ctaText": "Start Selling"
+    "ctaText": "Start Selling",
+    "ctaUrl": "https://arcnxt.com/seller-registration-and-onboarding/"
+
   }
 }

@@ -3,7 +3,7 @@
   "links": [
     {
       "label": "Sell Online",
-      "url": "https://arcnxt.com/seller-registration-and-onboarding/"
+      "url": "/"
     },
     {
       "label": "Pricing & Commission",
@@ -26,5 +26,5 @@
       "url": "https://arcnxt.com/login-sing-up/"
     }
   ],
-  "logoImage": "/uploads/arcnxt_logo_purple.png"
+  "logoImage": "/images/arcnxt_logo_purple.png"
 }
