@@ -15,7 +15,7 @@ const ICONS = [
 ];
 
 export default function ShippingHowItWorks() {
-  const { steps } = shipping;
+  const { steps, howItWorks } = shipping;
   const totalSteps = steps?.items?.length || 0;
 
   if (!steps) return null;
@@ -157,6 +157,34 @@ export default function ShippingHowItWorks() {
             );
           })}
         </div>
+
+        {/* ================= NOTE (SIMPLE & CLEAN) ================= */}
+        {howItWorks?.note && (
+          <div className="max-w-3xl mt-12 mx-auto">
+
+
+            <div className="relative overflow-hidden rounded-xl border border-gray-100 bg-white p-1 shadow-sm">
+              {/* Decorative Accent Bar */}
+              <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-[#6B44AF]" />
+
+              <div className="flex flex-col sm:flex-row items-start gap-4 bg-[#F9F8FF] p-5 md:p-6 rounded-lg">
+                {/* Badge/Label */}
+                <div className="shrink-0 flex items-center justify-center">
+                  <span className="bg-[#6B44AF] text-white text-[10px] uppercase tracking-widest font-bold px-2.5 py-1 rounded-md shadow-sm">
+                    Next
+                  </span>
+                </div>
+
+                {/* Text Content */}
+                <div className="space-y-1">
+                  <p className="text-gray-700 leading-relaxed text-sm md:text-base font-medium">
+                    {howItWorks.note}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
       </div>
     </section>

@@ -14,12 +14,12 @@ export default function Stats() {
   const { stats } = home;
 
   return (
-    <section className="bg-gradient-to-b from-[#F9FAFB] to-white py-24 px-6">
+    <section className="bg-gradient-to-b from-[#F9FAFB] to-white py-16 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* SECTION INTRO */}
         <div className="text-center mb-14">
-          <h2 className="text-2xl md:text-3xl font-extrabold font-fredoka text-gray-900">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900">
             Trusted by Sellers Across India
           </h2>
           <p className="mt-3 text-sm md:text-base text-gray-600">
@@ -81,7 +81,7 @@ export default function Stats() {
                   md:text-3xl
                   font-extrabold
                   text-[#6B44AF]
-                  font-fredoka
+                  
                 "
               >
                 {item.value}

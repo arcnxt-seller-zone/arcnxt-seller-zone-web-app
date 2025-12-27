@@ -4,11 +4,11 @@ import pricing from "@/content/settings/pricing.json";
 
 export default function FinalCTA() {
     return (
-        <section className="bg-[#F6F3FF] py-28 px-6">
+        <section className="bg-[#F6F3FF] py-20 px-6">
             <div className="max-w-5xl mx-auto text-center">
 
                 {/* TITLE */}
-                <h2 className="text-3xl md:text-4xl font-extrabold font-fredoka text-gray-900">
+                <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
                     {pricing.finalCta.title}
                 </h2>
 
@@ -17,26 +17,7 @@ export default function FinalCTA() {
                     {pricing.finalCta.subtitle}
                 </p>
 
-                {/* CTA BUTTON */}
-                <a
-                    href={pricing.hero.ctaUrl}
-                    className="
-            inline-flex
-            items-center
-            justify-center
-            mt-10
-            px-12
-            py-4
-            rounded-xl
-            bg-[#6B44AF]
-            text-white
-            font-semibold
-            hover:bg-[#5A37A2]
-            transition
-          "
-                >
-                    {pricing.finalCta.ctaText}
-                </a>
+
 
                 {/* TRUST MICRO POINTS */}
                 {/* TRUST BADGES */}
@@ -98,6 +79,27 @@ export default function FinalCTA() {
                         🔒 Secure settlements
                     </span>
                 </div>
+
+                {/* CTA BUTTON */}
+                <a
+                    href={pricing.hero.ctaUrl}
+                    className="
+            inline-flex
+            items-center
+            justify-center
+            mt-10
+            px-12
+            py-4
+            rounded-xl
+            bg-[#6B44AF]
+            text-white
+            font-semibold
+            hover:bg-[#5A37A2]
+            transition
+          "
+                >
+                    {pricing.finalCta.ctaText}
+                </a>
 
             </div>
         </section>

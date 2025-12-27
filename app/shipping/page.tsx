@@ -19,30 +19,15 @@ import benefits from "@/content/settings/benefits.json";
 export default function ShippingPage() {
   return (
     <>
-      {/* SECTION 1: HERO */}
-            <BenefitsMarquee items={benefits.sellerBenefits} />
-      
+    
+      <BenefitsMarquee items={benefits.sellerBenefits} />
       <ShippingHero />
-
-      {/* SECTION 2: BANNER + HIGHLIGHTS */}
       <ShippingBanner />
-
- 
-     <QuickFacts />
-
-      {/* SECTION 4: HOW SHIPPING WORKS */}
-      
       <ShippingDetails/>
+      <QuickFacts />
       <ShippingPolicies />
-
-      {/* SECTION 5: TIMELINE */}
-      {/* <ShippingTimeline /> */}
-
-      {/* SECTION 6: RETURNS & CANCELLATIONS */}
-      {/* <ReturnPolicy /> */}
-
-      {/* SECTION 7: FINAL CTA */}
       <ShippingFinalCTA />
+      
     </>
   );
 }

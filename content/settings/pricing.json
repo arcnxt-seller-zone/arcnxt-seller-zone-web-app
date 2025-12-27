@@ -1,13 +1,13 @@
 {
   "hero": {
     "title": "Pricing & Commission",
-    "subtitle": "Sell online on ArcNxt at 0% commission across all categories",
+    "subtitle": "Sell online on ArcNxt at 0% commission across all categories and keep the full earnings from every sale.",
     "ctaText": "Start Selling",
     "ctaUrl": "https://arcnxt.com/seller-registration-and-onboarding/"
   },
   "eligibility": {
-    "title": "Don’t have a GSTIN?",
-    "desc": "Selected seller categories may onboard without a regular GSTIN."
+    "title": "Don’t have a GSTIN? No problem!",
+    "desc": "Selected seller categories can onboard without a regular GSTIN. Selling with an Enrolment ID is coming soon on ArcNxt."
   },
   "noFees": [
     {
@@ -16,24 +16,24 @@
       "desc": "Creating a seller account and listing products on ArcNxt is completely free."
     },
     {
-      "icon": "listing",
-      "title": "Free Product Listing",
-      "desc": "List unlimited products without paying any listing charges."
-    },
-    {
       "icon": "collection",
       "title": "No Collection Fee",
-      "desc": "Keep 100% of your sale price on prepaid and COD orders."
+      "desc": "Keep 100% of your sale price on prepaid and Cash on Delivery orders, excluding applicable government charges."
     },
     {
       "icon": "penalty",
       "title": "No Penalty Charges",
-      "desc": "No penalties for order cancellations or delayed dispatch."
+      "desc": "No penalties for order cancellations or dispatch delays."
+    },
+    {
+      "icon": "listing",
+      "title": "Free Product Listing",
+      "desc": "List unlimited products without paying any listing charges."
     }
   ],
   "payment": {
     "title": "Payment Cycle",
-    "description": "The settlement amount is securely deposited directly into your bank account after order delivery, including cash on delivery orders.",
+    "description": "The settlement amount will be deposited directly into your bank account after order delivery, including Cash on Delivery orders.",
     "points": [
       {
         "icon": "cycle",
@@ -46,7 +46,7 @@
         "desc": "All settlements are safely transferred to your registered bank account."
       }
     ],
-    "footer": "You can track deposited balance and upcoming settlements from your seller dashboard."
+    "footer": "You can easily track your deposited balance and upcoming payments from your seller dashboard."
   },
   "shippingAndReturns": {
     "shipping": {
@@ -91,8 +91,8 @@
     }
   },
   "finalCta": {
-    "title": "Sell Products Online at 0% Commission",
-    "subtitle": "Join a seller-first marketplace built for growth",
+    "title": "Sell Products Online at 0% Commission on ArcNxt",
+    "subtitle": "Join a seller-first marketplace designed to help your business grow, with zero commission, easy onboarding, and full support at every step.",
     "ctaText": "Start Selling"
   },
   "benefits": {
@@ -106,22 +106,32 @@
       {
         "emoji": "💰",
         "title": "Zero Commission",
-        "desc": "No commission on sales. Keep 100% of what you earn."
+        "desc": "Sell with 0% commission and keep the full earnings from every sale."
+      },
+      {
+        "emoji": "🆓",
+        "title": "Free Product Listing",
+        "desc": "Our team helps list your products for free, so you can focus on selling."
       },
       {
         "emoji": "📦",
         "title": "Easy Order Management",
-        "desc": "Manage orders, returns, and inventory from one simple dashboard."
+        "desc": "Manage orders, returns, and inventory easily from one simple dashboard."
+      },
+      {
+        "emoji": "🔁",
+        "title": "Low Return Charges",
+        "desc": "No return charges on your first 10 returns. After that, enjoy seller-friendly low return charges."
       },
       {
         "emoji": "🔒",
         "title": "Secure Payments",
-        "desc": "Get paid directly into your bank account with transparent settlements."
+        "desc": "Payments are deposited directly into your bank account with clear settlements."
       },
       {
         "emoji": "📈",
         "title": "Business Growth",
-        "desc": "Reach customers across India and grow your online business."
+        "desc": "Reach customers across India and grow your online business with ArcNxt."
       }
     ]
   }

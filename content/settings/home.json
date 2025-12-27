@@ -38,7 +38,7 @@
   ],
   "why": {
     "title": "Why Sellers Love ArcNxt",
-    "subtitle": "Everything is designed to help you sell more and grow your business",
+    "subtitle": "Everything is built to help you sell easily and grow your business",
     "items": [
       {
         "icon": "commission",
@@ -48,37 +48,38 @@
       {
         "icon": "penalty",
         "title": "0 Penalty Charges",
-        "desc": "No penalties for late dispatch or order cancellations. Sell without fear."
+        "desc": "No penalties for order cancellations or dispatch delays. Sell with confidence."
       },
       {
         "icon": "growth",
         "title": "Growth for Every Seller",
-        "desc": "From small sellers to large brands, ArcNxt supports growth for all—including select non-GST sellers."
+        "desc": "From small sellers to growing brands, and from unbranded to branded products, ArcNxt supports everyone — including eligible sellers without a regular GSTIN."
       },
       {
         "icon": "ease",
-        "title": "Ease of Doing Business",
+        "title": "Easy to Do Business",
         "points": [
-          "Easy product listing",
-          "Lowest cost shipping",
-          "Fast payment settlements"
+          "Easy product listing – Our team helps you list your products smoothly",
+          "Affordable shipping – Shipping is handled by ArcNxt at low cost",
+          "Fast payments – ArcNxt ensures quick and secure bank settlements",
+          "Focus on your business and relax — ArcNxt takes care of everything for you at zero cost."
         ]
       }
     ]
   },
   "rewards": {
-    "title": "Exclusive Seller Rewards for Your First 30 Days",
-    "subtitle": "Designed to help new sellers start strong and grow faster on ArcNxt",
+    "title": "Exclusive Seller Rewards – Limited Time Offer",
+    "subtitle": "Designed to help new sellers start strong and grow faster. Join now to get these benefits, only on ArcNxt.",
     "items": [
-      {
-        "icon": "visibility",
-        "title": "Free Product Visibility",
-        "desc": "Get boosted visibility for your products during your first 30 days to attract more buyers."
-      },
       {
         "icon": "listing",
         "title": "Free Product Listing",
         "desc": "List unlimited products on ArcNxt at no cost and start selling immediately."
+      },
+      {
+        "icon": "visibility",
+        "title": "Free Product Visibility",
+        "desc": "Get boosted visibility for your products to attract more buyers."
       },
       {
         "icon": "returns",
@@ -91,6 +92,12 @@
         "desc": "Cancel orders you cannot fulfil without worrying about penalties."
       },
       {
+        "icon": "payments",
+        "title": "Faster Payments",
+        "desc": "Receive your earnings quickly in your bank account for smooth cash flow."
+      },
+      
+      {
         "icon": "lowcost",
         "title": "Lowest Return Charges",
         "desc": "ArcNxt offers one of the lowest return charges across all marketplaces."
@@ -98,28 +105,28 @@
     ]
   },
   "testimonials": {
-    "title": "Seller Experiences",
+    "title": "What Sellers Love About ArcNxt",
     "items": [
       {
-        "name": "Amit Jain",
-        "store": "a store",
-        "location": "Tiruppur",
-        "business": "Apparel Seller",
-        "quote": "ArcNxt helped us scale quickly and reach customers across India."
+        "name": "Dhruvin Mehta ",
+        "store": "Manath jewels",
+        "location": "Maharastra",
+        "business": "Jewellery",
+        "quote": "Before joining ArcNxt, reaching customers outside our local area was difficult. With ArcNxt, we were able to sell our jewellery to customers across India and grow our business step by step with confidence."
       },
       {
-        "name": "Suman Devi",
-        "store": "b store",
-        "location": "Hisar",
-        "business": "Fashion Retailer",
-        "quote": "I started receiving consistent orders within days of onboarding."
+        "name": "Punya Jain",
+        "store": "Multispace",
+        "location": "Delhi",
+        "business": "Home Products",
+        "quote": "ArcNxt made it easy for us to start online selling. The onboarding process was simple, and within a short time, we began receiving regular orders, which helped us build steady sales."
       },
       {
-        "name": "Mohit Rathi",
-        "location": "Ahmedabad",
-        "store": "a store",
-        "business": "Jewellery Brand",
-        "quote": "ArcNxt made online selling simple and reliable for our business."
+        "name": "Amber Aggarwal",
+        "location": "Delhi",
+        "store": "AM Creations",
+        "business": "Mobile Accessories",
+        "quote": "Selling online felt complicated earlier, but ArcNxt simplified everything. From listing products to managing orders, the platform helped us run our business smoothly and reliably."
       }
     ]
   },
@@ -128,14 +135,14 @@
     "steps": [
       {
         "title": "Create Account",
-        "desc": "GSTIN (for GST sellers) or Enrolment ID / UIN (for non-GST sellers) and a valid bank account."
+        "desc": "GSTIN (for GST sellers) or Enrolment ID / UIN (for non-GST sellers Coming Soon) and a valid bank account."
       },
       {
         "title": "List Products",
-        "desc": "List the products you want to sell from your seller panel."
+        "desc": "List the products you want to sell from your seller panel. Our dedicated team helps you list your products for free, so you can focus on selling."
       },
       {
-        "title": "Get Orders",
+        "title": "Start Getting Orders",
         "desc": "Start receiving orders from customers shopping across India."
       },
       {
@@ -144,13 +151,13 @@
       },
       {
         "title": "Receive Payments",
-        "desc": "Payments are deposited directly into your bank account after a 7-day settlement cycle."
+        "desc": "Payments are deposited directly into your bank account after a 5-day settlement cycle."
       }
     ]
   },
   "learningZone": {
     "title": "ArcNxt Learning Zone",
-    "desc": "Learn how to sell, scale, and grow your business on ArcNxt with step-by-step guides, video tutorials, and seller best practices.",
+    "desc": "Learn how to sell, manage orders, and grow your business on ArcNxt with easy guides, video tutorials, and practical seller tips.",
     "ctaText": "Visit Learning Zone",
     "ctaUrl": "https://supplier.arcnxt.com/learning"
   },
@@ -159,31 +166,31 @@
     "items": [
       {
         "icon": "shipping",
-        "title": "Affordable Nationwide Shipping",
-        "desc": "Deliver products to customers across India at competitive rates."
+        "title": "Affordable Shipping Across India",
+        "desc": "Ship your products across India with wide delivery coverage and budget-friendly shipping."
       },
       {
         "icon": "dispatch",
-        "title": "Fast Dispatch Programs",
-        "desc": "Eligible sellers can access faster shipping options."
+        "title": "Next-Day Dispatch Program",
+        "desc": "Designed for qualifying sellers, this program enables quicker order dispatch with priority support and personalized account assistance."
       },
       {
-        "icon": "ads",
-        "title": "Promotional Tools",
-        "desc": "Increase visibility using platform promotion tools."
+        "icon": "package",
+        "title": "Free Product Listing",
+        "desc": "Save your time on setup and focus on selling while we take care of product listing."
       },
       {
         "icon": "insights",
         "title": "Business Insights",
-        "desc": "Track performance and make data-driven decisions."
+        "desc": "Track your sales performance and make informed decisions using clear and actionable insights."
       }
     ]
   },
   "support": {
     "title": "ArcNxt Seller Support",
-    "subtitle": "Available 24/7",
-    "desc": "Our Seller Support team is available round the clock to help you before and after onboarding, ensuring a smooth selling experience on ARCNXT.",
-    "email": "support@arcnxt.com",
-    "mobile": "+91 63033 45991"
+    "subtitle": "24×7 Assistance for Sellers",
+    "desc": "Our dedicated Seller Support team is available 24×7 to assist you before and after onboarding, ensuring a seamless and hassle-free selling experience on ArcNxt.",
+    "email": "contact@arcnxt.com",
+    "mobile": "+91 08062178265"
   }
 }

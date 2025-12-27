@@ -1,5 +1,7 @@
 "use client";
 
+import { FaStore } from "react-icons/fa";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
@@ -14,10 +16,10 @@ export default function TestimonialsCarousel() {
   const { testimonials } = home;
 
   return (
-    <section className="bg-[#F9FAFB] py-24 px-6">
+    <section className="bg-[#F9FAFB] py-20 px-6">
       <div className="max-w-7xl mx-auto">
         {/* TITLE */}
-        <h2 className="text-3xl md:text-4xl font-extrabold font-fredoka text-center text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900">
           {testimonials.title}
         </h2>
 
@@ -46,7 +48,7 @@ export default function TestimonialsCarousel() {
             {testimonials.items.map((item, index) => (
               <SwiperSlide key={index} className="h-auto">
                 <div className="bg-white rounded-xl p-6 h-full shadow-sm transition hover:shadow-md flex flex-col border border-gray-100">
-                  
+
                   {/* HEADER */}
                   <div className="h-32 rounded-lg bg-gradient-to-br from-[#6B44AF]/10 to-[#9C27B0]/10 flex items-center justify-center mb-6">
                     <FaQuoteLeft className="text-[#6B44AF] text-2xl" />
@@ -58,14 +60,28 @@ export default function TestimonialsCarousel() {
                   </p>
 
                   {/* FOOTER */}
-                  <div className="border-t pt-4">
-                    <p className="font-semibold text-gray-900">
+                  <div className="border-t pt-4 space-y-1">
+                    <p className="text-xs font-semibold text-gray-900">
                       {item.name}
                     </p>
-                    <p className="text-xs text-gray-500">
+
+                    {/* STORE NAME WITH ICON */}
+                    {/* STORE NAME WITH ICON + BADGE */}
+                    {item.store && (
+                      <div className="inline-flex items-center gap-1.5 mt-1 px-2 py-0.5 rounded-md bg-[#6B44AF] text-sm text-white">
+                        <FaStore className="text-xs text-white/80" />
+                        <span>{item.store}</span>
+                      </div>
+                    )}
+
+
+                    {/* SUBTEXT BELOW STORE */}
+                    <p className="text-xs text-gray-600">
                       {item.business} · {item.location}
                     </p>
                   </div>
+
+
                 </div>
               </SwiperSlide>
             ))}

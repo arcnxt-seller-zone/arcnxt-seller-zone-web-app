@@ -8,6 +8,8 @@ import {
   FaUndoAlt,
   FaTimesCircle,
   FaPercentage,
+  FaMoneyCheckAlt ,
+  //FaClock 
 } from "react-icons/fa";
 import home from "@/content/settings/home.json";
 
@@ -17,18 +19,19 @@ const ICON_MAP: Record<string, ReactNode> = {
   returns: <FaUndoAlt />,
   cancel: <FaTimesCircle />,
   lowcost: <FaPercentage />,
+  payments: <FaMoneyCheckAlt />
 };
 
 export default function SellerRewards() {
   const { rewards } = home;
 
   return (
-    <section className="bg-white py-24 px-6">
+    <section className="bg-white py-20 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-4xl font-extrabold  text-gray-900">
+          <h2 className="text-2xl md:text-3xl font-extrabold  text-gray-900">
             {rewards.title}
           </h2>
           {rewards.subtitle && (

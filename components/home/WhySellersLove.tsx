@@ -25,7 +25,7 @@ export default function WhySellersLove() {
 
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold font-fredoka text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-extrabold  text-gray-900">
             {why.title}
           </h2>
           <p className="mt-4 text-gray-600 text-sm md:text-base">

@@ -3,7 +3,7 @@ import pricing from "@/content/settings/pricing.json";
 
 export default function ZeroCommission() {
   return (
-    <section className="bg-white py-4 px-6">
+    <section className="bg-white py-6 px-6">
       <div className="max-w-6xl mx-auto">
 
         {/* HIGHLIGHT BAND */}
@@ -14,7 +14,7 @@ export default function ZeroCommission() {
           rounded-2xl
           px-6
           md:px-10
-          py-8
+          py-2
           overflow-hidden
         ">
 
@@ -23,11 +23,12 @@ export default function ZeroCommission() {
 
           {/* CONTENT */}
           <div className="pl-4 md:pl-6">
-            <h3 className="text-lg md:text-xl font-extrabold text-gray-900">
+            <h3 className="text-sm md:text-l font-extrabold text-gray-900">
               {pricing.eligibility.title}
             </h3>
+            <br/>
 
-            <p className="mt-3 text-sm md:text-base text-gray-700 max-w-3xl">
+            <p className="mt-s text-sm md:text-base text-gray-700 max-w-3xl">
               {pricing.eligibility.desc}
             </p>
           </div>

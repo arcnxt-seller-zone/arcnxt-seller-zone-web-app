@@ -11,7 +11,7 @@ export default function ShippingBanner() {
   const { banner } = shipping;
 
   return (
-    <section className="bg-white py-24 px-6">
+    <section className="bg-[#F9FAFB] py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
         {/* TITLE */}

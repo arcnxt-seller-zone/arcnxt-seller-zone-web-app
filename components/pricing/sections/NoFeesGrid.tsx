@@ -24,7 +24,7 @@ export default function NoFeesGrid() {
 
         {/* SECTION HEADING */}
         <h2 className="text-xl md:text-2xl font-extrabold text-gray-900 text-center mb-12">
-          No Fees. No Surprises.
+        No Fees. No Hidden Charges.
         </h2>
 
         {/* GRID */}

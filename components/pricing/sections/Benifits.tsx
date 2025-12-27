@@ -18,7 +18,7 @@ export default function BenefitsScroller() {
         
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">
             {benefits.title}
           </h2>
         </div>

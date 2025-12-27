@@ -1,69 +1,86 @@
 {
   "hero": {
-    "title": "Shipping, Delivery & Returns Policy",
+    "title": "ArcNxt Shipping, Delivery & Returns Policy",
     "subtitle": "Deliver your products to customers across India with reliable and cost-effective shipping support.",
     "gstNoteTitle": "No GSTIN or Composition GSTIN?",
     "gstNoteText": "You can still sell on ArcNxt. Learn more",
     "ctaText": "Start Selling",
     "image": "",
     "extraBenefits": [
-      { "emoji": "📦", "text": "Shipping is arranged by ArcNxt" },
-      { "emoji": "🚚", "text": "Pickup from your doorstep" },
-      { "emoji": "🛡️", "text": "Safe & reliable delivery" }
+      {
+        "emoji": "📦",
+        "text": "Shipping is arranged by ArcNxt"
+      },
+      {
+        "emoji": "🚚",
+        "text": "Pickup from your doorstep"
+      },
+      {
+        "emoji": "🛡️",
+        "text": "Safe & reliable delivery"
+      }
     ]
   },
-
   "banner": {
     "title": "Deliver Products Across India",
-    "desc": "ArcNxt ensures smooth and hassle-free delivery of your products across India so you can focus on growing your business.",
+    "desc": "Deliver your products across India with reliable and affordable shipping, while ArcNxt takes care of the rest.",
     "highlights": [
-      { "icon": "cost", "title": "Cost-Effective Shipping", "image": "" },
-      { "icon": "india", "title": "Pan-India Delivery", "image": "" },
-      { "icon": "commission", "title": "0% Commission", "image": "" }
+      {
+        "icon": "cost",
+        "title": "Cost-Effective Shipping",
+        "image": ""
+      },
+      {
+        "icon": "india",
+        "title": "Pan-India Delivery",
+        "image": ""
+      },
+      {
+        "icon": "commission",
+        "title": "0% Commission",
+        "image": ""
+      }
     ]
   },
-
   "quickFacts": {
-    "title": "Quick Facts on Shipping & Delivery",
+    "title": "How ArcNxt Handles Shipping & Delivery",
     "items": [
       {
         "key": "shipping",
         "icon": "shipping",
         "title": "Shipping",
-        "desc": "ArcNxt handles shipping and delivery so you can focus on selling. Only applicable GST is charged on shipping, and sellers have complete control over product pricing.",
+        "desc": "ArcNxt takes care of shipping and delivery so you can focus fully on selling. Only applicable 18% GST is charged on shipping, and you have complete control over your product pricing. With ArcNxt, you can reach customers across India, use a wide delivery network, and ship orders smoothly without managing logistics yourself.",
         "image": ""
       },
       {
         "key": "returns",
         "icon": "returns",
         "title": "Returns Management",
-        "desc": "The seller dashboard gives complete visibility into returns, enabling real-time improvements and helping reduce return-related costs.",
+        "desc": "The ArcNxt Seller Dashboard gives you clear visibility into product returns, helping you understand issues quickly and take action in real time. This allows you to improve product quality, offer a better customer experience, and reduce unnecessary returns. You can easily manage all returns from one place and lower your overall return handling costs.",
         "image": ""
       },
       {
         "key": "cancellation",
         "icon": "cancel",
         "title": "Cancellations",
-        "desc": "There are zero penalties for genuine seller or system cancellations, allowing you to operate without unnecessary stress.",
+        "desc": "ArcNxt does not charge penalties for genuine seller or system cancellations. If you are unable to fulfil an order due to stock issues or unexpected situations, you can cancel without worrying about extra charges. This allows you to run your business smoothly and without unnecessary pressure.",
         "image": ""
       },
       {
         "key": "rto",
         "icon": "rto",
         "title": "Return to Origin (RTO)",
-        "desc": "If delivery attempts are unsuccessful, the shipment is returned without any additional return shipping charges.",
+        "desc": "Our delivery partner makes up to three delivery attempts to reach the customer. If the customer does not accept the order, it is marked as RTO (Return to Origin) and sent back as per policy. No return shipping charges are applied for such RTO orders, helping sellers save on extra return costs.",
         "image": ""
       }
     ]
   },
-
   "logistics": {
     "title": "Shipping & Delivery Charges",
     "desc": "ArcNxt partners with multiple trusted logistics providers to pick up products from your location and deliver them directly to customers across India."
   },
-
   "steps": {
-    "title": "Ship Your Orders in 3 Simple Steps",
+    "title": "Ship Your Orders in 3 Easy Steps",
     "items": [
       {
         "step": "1",
@@ -73,24 +90,37 @@
       {
         "step": "2",
         "title": "Pack Products",
-        "desc": "Securely pack the product using plain, unbranded packaging and attach the label."
+        "desc": "Pack the product safely using plain, unbranded packaging and attach the label."
       },
       {
         "step": "3",
         "title": "Hand Over to Courier",
-        "desc": "Our logistics partner picks up the order and delivers it to the customer."
+        "desc": "Our delivery partner picks up the order and delivers it to the customer."
       }
     ]
   },
-
   "nav": [
-    { "id": "charges", "label": "Shipping & Delivery Charges" },
-    { "id": "how-it-works", "label": "How Shipping Works" },
-    { "id": "timeline", "label": "Shipping Timeline" },
-    { "id": "returns", "label": "Return Policy" },
-    { "id": "cancellation", "label": "Cancellation Policy" }
+    {
+      "id": "charges",
+      "label": "Shipping & Delivery Charges"
+    },
+    {
+      "id": "how-it-works",
+      "label": "How Shipping Works"
+    },
+    {
+      "id": "timeline",
+      "label": "Shipping Timeline"
+    },
+    {
+      "id": "returns",
+      "label": "Return Policy"
+    },
+    {
+      "id": "cancellation",
+      "label": "Cancellation Policy"
+    }
   ],
-
   "charges": {
     "title": "ArcNxt Shipping & Delivery Charges",
     "paragraphs": [
@@ -98,7 +128,6 @@
       "With transparent and affordable delivery charges, sellers can focus on growing their online business without worrying about logistics operations."
     ]
   },
-
   "howItWorks": {
     "title": "How to Ship Your Orders in 3 Simple Steps",
     "steps": [
@@ -118,39 +147,50 @@
         "desc": "Our logistics partner will pick up the shipment from your address and deliver it to the customer."
       }
     ],
-    "note": "Sit back and relax while ArcNxt ensures safe and timely delivery. Well-packed and on-time shipments lead to happier customers and repeat orders.",
+    "note": "Sit back and focus on your business while ArcNxt and our delivery partners handle shipping and delivery safely and on time. When customers receive well-packed orders on time, they are more likely to return and place repeat orders, helping your business grow.",
     "videoImage": "",
     "videoUrl": ""
   },
-
   "timeline": {
     "title": "Shipping Timeline",
-    "desc": "Orders must be dispatched within 2–3 days from order confirmation, as per the committed Service Level Agreement (SLA). Sellers can track dispatch deadlines and order status in the Seller Panel."
+    "desc": "Orders should be shipped within 2–3 days from the date you receive the order, as per the delivery timeline you have agreed to (SLA). You can track the order status and remaining dispatch time from your ArcNxt seller dashboard. Once the order is booked, our delivery partner or courier partner will make up to three pickup attempts to collect your shipment."
   },
-
   "returns": {
-    "title": "Return Policy",
+    "title": "ArcNxt Return Policy",
     "paragraphs": [
-      "Customers can request a return within 7 days of delivery. Undelivered shipments are marked as Return to Origin (RTO).",
-      "The Seller Panel provides complete visibility into returns and RTOs, including tracking, compensation, and charge details."
+      "Customers can return a product within 5 days from the date of delivery. If an order is not delivered to the customer after delivery attempts, it is marked as RTO (Return to Origin) and sent back as per policy.",
+      "ArcNxt provides sellers with complete visibility into returns and RTO orders through the seller dashboard. You can view order-level and product-level return details, track shipment movement, and check payment and order history in one place. This helps you manage returns better and reduce return-related costs."
     ],
     "listTitle": "Return Shipping Fee",
-    "points": [
-      "Return shipping fees may apply for customer-initiated returns based on shipment weight.",
-      "No additional shipping fee is charged for RTO shipments.",
-      "All return and RTO charges can be tracked and managed from the Seller Panel.",
-      "In exceptional cases, return shipping fees may be waived."
-    ],
+    "returnPolicy": {
+      "title": "Return Shipping Fee",
+      "items": [
+        {
+          "heading": "Customer Returns",
+          "desc": "If a customer returns a delivered product, a return shipping fee may apply based on the shipment’s weight and category."
+        },
+        {
+          "heading": "RTO (Return to Origin)",
+          "desc": "If an order is not delivered to the customer and is returned as RTO, no additional return shipping charges are applied, helping sellers avoid extra costs."
+        },
+        {
+          "heading": "Tracking & Management",
+          "desc": "All return and RTO-related details, including any applicable charges, can be easily tracked and managed from the ArcNxt seller dashboard."
+        },
+        {
+          "heading": "Exceptional Cases",
+          "desc": "In certain special situations, return shipping charges may be fully or partially waived, as per ArcNxt policy."
+        }
+      ]
+    },
     "image": ""
   },
-
   "cancellation": {
-    "title": "Cancellation Policy",
+    "title": "ArcNxt Cancellation Policy",
     "subtitle": "No Cancellation Penalty",
-    "desc": "Sellers are not charged any penalty for genuine order cancellations due to inventory or operational constraints. ArcNxt allows sellers to continue business without unnecessary financial stress.",
+    "desc": "To ensure a good experience for customers, sellers are expected to keep their listed products in stock and ready for dispatch. However, we understand that delays or cancellations can sometimes happen due to reasons beyond your control. In such cases, ArcNxt does not charge any cancellation or late-dispatch penalties, allowing you to continue selling online without unnecessary stress or worry.",
     "image": ""
   },
-
   "finalCta": {
     "title": "Sell Products Online at 0% Commission",
     "subtitle": "Join a fast-growing marketplace and reach customers across India.",

@@ -3,14 +3,14 @@ import growData from "@/content/settings/home.json";
 import {
   FaTruck,
   FaBolt,
-  FaBullhorn,
+  FaBoxOpen,
   FaChartLine,
 } from "react-icons/fa";
 
 const ICON_MAP: Record<string, ReactNode> = {
   shipping: <FaTruck />,
   dispatch: <FaBolt />,
-  ads: <FaBullhorn />,
+  package: <FaBoxOpen />,
   insights: <FaChartLine />,
 };
 

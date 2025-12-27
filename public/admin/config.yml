@@ -10,25 +10,22 @@ public_folder: "/uploads"
 collections:
 
   # =====================
-  # HOME PAGE
+  # SELLER BENEFITS
   # =====================
-  - name: "pages"
-    label: "Pages"
+  - name: "benefits"
+    label: "Seller Benefits"
     files:
-      - name: "home"
-        label: "Home Page"
-        file: "content/home.md"
+      - name: "benefits"
+        label: "Benefits"
+        file: "content/settings/benefits.json"
         fields:
-          - { label: "Main Title", name: "title", widget: "string" }
-          - { label: "Sub Title", name: "subtitle", widget: "text" }
-
-          - label: "Benefits"
-            name: "benefits"
+          - label: "Seller Benefits"
+            name: "sellerBenefits"
             widget: "list"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Icon Emoji", name: "icon", widget: "string" }
+            field:
+              label: "Benefit"
+              name: "benefit"
+              widget: "string"
 
   # =====================
   # NAVBAR
@@ -40,72 +37,233 @@ collections:
         label: "Navbar Settings"
         file: "content/settings/navbar.json"
         fields:
+          - { label: "Logo Text", name: "logoText", widget: "string" }
           - { label: "Logo Image", name: "logoImage", widget: "image" }
 
           - label: "Menu Links"
             name: "links"
             widget: "list"
             fields:
-              - { label: "Link Label", name: "label", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
 
   # =====================
-  # FOOTER (SELLER ZONE)
+  # FOOTER
   # =====================
   - name: "footer"
-    label: "Footer (Seller Zone)"
+    label: "Footer"
     files:
       - name: "footer"
         label: "Footer Settings"
         file: "content/settings/footer.json"
         fields:
 
-          # BRAND
           - label: "Brand"
             name: "brand"
             widget: "object"
             fields:
-              - { label: "Brand Name", name: "name", widget: "string" }
+              - { label: "Logo Image", name: "logoImage", widget: "image" }
               - { label: "Tagline", name: "tagline", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "CTA Text", name: "ctaText", widget: "string" }
               - { label: "CTA URL", name: "ctaUrl", widget: "string" }
 
-          # SELLER LINKS
-          - label: "Seller Zone Links"
+          - label: "Seller Links"
             name: "sellerLinks"
             widget: "object"
             fields:
-              - { label: "Section Title", name: "title", widget: "string" }
-
+              - { label: "Title", name: "title", widget: "string" }
               - label: "Links"
                 name: "links"
                 widget: "list"
                 fields:
-                  - { label: "Label", name: "label", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
 
-          # SUPPORT
-          - label: "Seller Support"
+          - label: "Support"
             name: "support"
             widget: "object"
             fields:
-              - { label: "Section Title", name: "title", widget: "string" }
-              - { label: "Support Email", name: "email", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
 
-          # SOCIAL
-          - label: "Social Media"
+          - label: "Social"
             name: "social"
             widget: "object"
             fields:
-              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
-              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
-              - { label: "YouTube URL", name: "youtube", widget: "string", required: false }
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+              - { label: "Facebook", name: "facebook", widget: "string", required: false }
+              - { label: "YouTube", name: "youtube", widget: "string", required: false }
 
-          # LEGAL
+          - label: "Company"
+            name: "company"
+            widget: "object"
+            fields:
+              - { label: "Company Name", name: "name", widget: "string" }
+              - { label: "CIN", name: "cin", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
+
           - label: "Legal"
             name: "legal"
             widget: "object"
             fields:
               - { label: "Company Name", name: "companyName", widget: "string" }
               - { label: "Copyright Year", name: "copyrightYear", widget: "string" }
+
+  # =====================
+  # HOME PAGE
+  # =====================
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "home"
+        label: "Home Content"
+        file: "content/pages/home.json"
+        fields:
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Note", name: "note", widget: "string", required: false }
+              - { label: "CTA Text", name: "cta", widget: "string" }
+              - { label: "Register Link", name: "registerLink", widget: "string" }
+              - { label: "Hero Image", name: "image", widget: "image" }
+              - label: "Benefits"
+                name: "benefits"
+                widget: "list"
+                field:
+                  label: "Benefit"
+                  name: "benefit"
+                  widget: "string"
+
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Seller Support"
+            name: "support"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Mobile Number", name: "mobile", widget: "string" }
+
+  # =====================
+  # PRICING PAGE
+  # =====================
+  - name: "pricing"
+    label: "Pricing Page"
+    files:
+      - name: "pricing"
+        label: "Pricing Content"
+        file: "content/pages/pricing.json"
+        fields:
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "CTA Text", name: "ctaText", widget: "string" }
+              - { label: "CTA URL", name: "ctaUrl", widget: "string" }
+
+          - label: "Eligibility"
+            name: "eligibility"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "No Fees"
+            name: "noFees"
+            widget: "list"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Final CTA"
+            name: "finalCta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "CTA Text", name: "ctaText", widget: "string" }
+
+  # =====================
+  # SHIPPING PAGE
+  # =====================
+  - name: "shipping"
+    label: "Shipping & Returns"
+    files:
+      - name: "shipping"
+        label: "Shipping Page"
+        file: "content/pages/shipping.json"
+        fields:
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "GST Note Title", name: "gstNoteTitle", widget: "string" }
+              - { label: "GST Note Text", name: "gstNoteText", widget: "text" }
+              - { label: "CTA Text", name: "ctaText", widget: "string" }
+
+          - label: "Steps"
+            name: "steps"
+            widget: "object"
+            fields:
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Step", name: "step", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Timeline"
+            name: "timeline"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Returns"
+            name: "returns"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field:
+                  label: "Paragraph"
+                  name: "paragraph"
+                  widget: "text"
+
+          - label: "Cancellation"
+            name: "cancellation"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Final CTA"
+            name: "finalCta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "CTA Text", name: "ctaText", widget: "string" }

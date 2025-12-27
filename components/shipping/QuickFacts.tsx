@@ -10,10 +10,10 @@ import {
 } from "react-icons/fa";
 
 export default function QuickFacts() {
-  const { quickFacts } = shipping;
+  const { quickFacts,logistics } = shipping;
 
   return (
-    <section className="bg-[#F9FAFB] py-24 px-6">
+    <section className="bg-[#F9FAFB] py-20 px-6">
       <div className="max-w-6xl mx-auto">
 
         {/* SECTION TITLE */}
@@ -71,6 +71,18 @@ export default function QuickFacts() {
             </div>
           ))}
         </div>
+
+        {/* LOGISTICS INFO */}
+        <div className="mt-14 bg-[#F4F1FB] border border-[#6B44AF]/10 rounded-2xl p-8 text-center">
+          <h3 className="text-xl md:text-2xl font-bold text-gray-900">
+            {logistics.title}
+          </h3>
+
+          <p className="mt-3 max-w-3xl mx-auto text-sm md:text-base text-gray-600 leading-relaxed">
+            {logistics.desc}
+          </p>
+        </div>
+
 
       </div>
     </section>
